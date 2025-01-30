@@ -1,0 +1,26 @@
+{
+  "name": "api-mail-gun",
+  "version": "1.0.0",
+  "description": "api criada para enviar email com mail gun",
+  "main": "index.js",
+  "engine":{
+    "node": 18
+  },
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "tsup src",
+    "start": "node dist/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^10.0.2",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1",
+    "form-data": "^4.0.1",
+    "mailgun.js": "^11.1.0",
+    "tsup": "^8.3.6",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
